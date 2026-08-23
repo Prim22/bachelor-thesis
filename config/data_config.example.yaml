@@ -1,0 +1,4 @@
+# Copy this file to data_config.yaml and replace the path
+# with the location of your local EnMAP scene.
+
+enmap_hdr: "PATH_TO_YOUR_ENMAP_SPECTRAL_IMAGE.HDR"
