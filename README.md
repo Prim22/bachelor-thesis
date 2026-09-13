@@ -159,5 +159,5 @@ The raw EnMAP hyperspectral data itself is not part of the repository.
  
 ## License
  
-This code is released for academic and educational purposes as part of a Bachelor's thesis submission. Please cite appropriately if you build on this work. EnMAP and USGS data usage is subject to their respective data licenses (see [Data Sources](#data-sources)).
+See the LICENSE file for the full terms.
  
