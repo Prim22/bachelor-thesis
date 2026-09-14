@@ -3,9 +3,6 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 from mpl_toolkits.axes_grid1 import make_axes_locatable
 
-# -----------------------------
-# RGB + 3D Cube Visualization
-# -----------------------------
 def plot_rgb_and_cube(cube, wavelengths, title='Hyperspectral Data Cube\nMountain Pass Mine'):
     """
     Side-by-side RGB preview and 3D spectral cube visualization.
@@ -87,9 +84,6 @@ def plot_rgb_and_cube(cube, wavelengths, title='Hyperspectral Data Cube\nMountai
     plt.show()
 
 
-# -----------------------------
-# Scree Plot
-# -----------------------------
 def plot_scree(var_ratio, method_name='PCA'):
     components = np.arange(1, len(var_ratio) + 1)
     fig, axes = plt.subplots(1, 2, figsize=(12, 5))
@@ -112,9 +106,6 @@ def plot_scree(var_ratio, method_name='PCA'):
     plt.show()
 
 
-# -----------------------------
-# Spatial Component Maps
-# -----------------------------
 def plot_spatial_components(img, method_name, n_show=16, cmap='RdBu_r'):
     n_cols_grid = 4
     n_rows_grid = (n_show + 3) // 4
@@ -139,9 +130,6 @@ def plot_spatial_components(img, method_name, n_show=16, cmap='RdBu_r'):
     plt.show()
 
 
-# -----------------------------
-# Spectral Loadings
-# -----------------------------
 def plot_loadings(loadings, wavelengths, method_name, n_show=9):
     n_cols_grid = 3
     n_rows_grid = (n_show + 2) // 3
